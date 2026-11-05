@@ -4,8 +4,8 @@
   "templateSha": "668af2512ba256d84c51ff3f3f83520132cfbc5b",
   "githubRunnerShell": "powershell",
   "incrementalBuilds": {
-    "onPush": true,
-    "mode": "modifiedProjects"
+    "onPush": false,
+    "mode": "modifiedApps"
   },
   "githubRunner": "windows-latest",
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/95f863f555d65db71653b7e379eafa3104aafa79/Actions/.Modules/settings.schema.json",
