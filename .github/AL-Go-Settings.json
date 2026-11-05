@@ -1,0 +1,28 @@
+{
+  "templateUrl": "https://github.com/businesscentralapps/tmp5KSkvc-PTE@main",
+  "conditionalSettings": [
+    {
+      "workflows": [
+        "CI/CD"
+      ],
+      "settings": {
+        "workflowConcurrency": [
+          "group: ${{ github.workflow }}-${{ github.ref }}",
+          "cancel-in-progress: true"
+        ]
+      }
+    }
+  ],
+  "githubRunnerShell": "powershell",
+  "useCompilerFolder": true,
+  "MicrosoftTelemetryConnectionString": "",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/95f863f555d65db71653b7e379eafa3104aafa79/Actions/.Modules/settings.schema.json",
+  "doNotPublishApps": true,
+  "type": "PTE",
+  "incrementalBuilds": {
+    "onPush": true
+  },
+  "useApproximateVersion": true,
+  "UseProjectDependencies": true,
+  "githubRunner": "windows-latest"
+}
