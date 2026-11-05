@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/95f863f555d65db71653b7e379eafa3104aafa79/Actions/.Modules/settings.schema.json",
   "templateUrl": "https://github.com/businesscentralapps/tmp5KSkvc-PTE@main",
   "conditionalSettings": [
     {
@@ -16,7 +17,6 @@
   "githubRunnerShell": "powershell",
   "useCompilerFolder": true,
   "MicrosoftTelemetryConnectionString": "",
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/95f863f555d65db71653b7e379eafa3104aafa79/Actions/.Modules/settings.schema.json",
   "doNotPublishApps": true,
   "type": "PTE",
   "incrementalBuilds": {
@@ -24,5 +24,6 @@
   },
   "useApproximateVersion": true,
   "UseProjectDependencies": true,
-  "githubRunner": "windows-latest"
+  "githubRunner": "windows-latest",
+  "templateSha": "668af2512ba256d84c51ff3f3f83520132cfbc5b"
 }
